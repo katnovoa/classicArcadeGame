@@ -6,7 +6,7 @@ class Enemy {
     this.speed = speed;
     // The image/sprite for our enemies, this uses
     this.sprite = 'images/enemy-bug.png';
-  };
+  }
 
   // Update the enemy's position, required method for game
   // Parameter: dt, a time delta between ticks
@@ -20,7 +20,7 @@ class Enemy {
     if (this.x > 506) {
       this.x = -50;
       this.speed = 100 + Math.floor(Math.random() * 222);
-    };
+    }
 
     // Checks for collisions
     if (this.x < this.x + 80 &&
@@ -29,14 +29,14 @@ class Enemy {
       60 + player.y > this.y) {
       player.x = 202;
       player.y = 405;
-    };
-  };
+    }
+  }
 
   // Draw the enemy on the screen, required method for game
   render() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
   }
-};
+}
 
 // This class requires an update(), render() and
 //a handleInput() method.
@@ -47,7 +47,7 @@ class Player {
     this.y = y;
     this.sprite = 'images/char-princess-girl.png';
     this.victory = false;
-  };
+  }
 
   //resets player once it reaches the water
   update() {
@@ -57,8 +57,8 @@ class Player {
         this.x = 200;
         this.y = 405;
       }, 800);
-    };
-  };
+    }
+  }
 
   render() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
@@ -95,7 +95,7 @@ class Player {
         break;
     }
   }
-};
+}
 
 
 const bug1 = new Enemy(-101, 63, 200);
