@@ -1,7 +1,7 @@
 # Fend-project-arcade-game
 
 ## What is the Classic Arcade Game
-A little recreation of the classic arcade game Frogger. The goal is to get your character from the grass over the road and into the water. The challenge is to avoid the bugs that travel on the road. If a bug is touched, the character is reset back at the beginning. Upon reaching the water, the user is also reset back to the beginning.
+A little recreation of the classic arcade game Frogger. The goal is to get your character from the grass over the road and into the water, all while avoiding collision with the ugly bugs
 
 ## Challange
 Avoid the bugs that travel on the road. If the player collides with the bugs, the player is reset back at the beginning. Upon reaching the water, User wins and gets the opportunity to start again.
@@ -21,4 +21,4 @@ Load this link : https://katnovoa.github.io/classicArcadeGame/
 
 ## Huge thanks to:
 * The Udacity slack channel for Fend Project 3
-* All the awesome resources collected by Janice Medina for the FEND team especially the following: Matthew Crawfords Arcade game walk through, Antonella walk-though on Youtube. 
+* All the awesome resources collected by Janice Medina for the FEND team especially the following: Matthew Crawfords Arcade game walk through, Antonella walk-though on Youtube.
