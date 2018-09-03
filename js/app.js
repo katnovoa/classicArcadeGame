@@ -24,7 +24,7 @@ class Enemy {
     };
 
     // Checks for collisions
-    if (player.x < this.x + 80 &&
+    if (this.x < this.x + 80 &&
       player.x + 80 > this.x &&
       player.y < this.y + 60 &&
       60 + player.y > this.y) {
@@ -53,11 +53,11 @@ class Player {
 
 
   update() {
-    if (player.y < 0) {
+    if (this.y < 0) {
       this.victory = true;
       setTimeout(() => {
-        player.x = 200;
-        player.y = 405;
+        this.x = 200;
+        this.y = 405;
       }, 800);
     };
   };
@@ -74,7 +74,7 @@ class Player {
     switch (input) {
       case 'left':
         if (this.x > 0) {
-          this.x -= 102;
+          this.x -= 104;
         }
         break;
 
@@ -86,7 +86,7 @@ class Player {
 
       case 'right':
         if (this.x < 405) {
-          this.x += 102;
+          this.x += 104;
         }
         break;
 

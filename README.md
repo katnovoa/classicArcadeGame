@@ -10,7 +10,12 @@ Avoid the bugs that travel on the road. If the player collides with the bugs, th
 Using the arrow keys on your keyboard, move upwards. Avoid the bugs at all cost and try and get to the water. If you made it in the water, you can play again. If you collided with a bug, start again!
 
 ## How to play
-Load this link : https://katnovoa.github.io/classicArcadeGame/
+Click on this link to open game : https://katnovoa.github.io/classicArcadeGame/
+
+## Installing from source
+1. Download/Clone the following repo: https://github.com/katnovoa/classicArcadeGame
+2. Load index.html in browser.
+3. Play the game
 
 
 ## Tech used
