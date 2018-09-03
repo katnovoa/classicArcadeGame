@@ -30,7 +30,6 @@ class Enemy {
       60 + player.y > this.y) {
       player.x = 202;
       player.y = 405;
-      console.log("collided");
     };
   };
 
@@ -76,32 +75,24 @@ class Player {
       case 'left':
         if (this.x > 0) {
           this.x -= 102;
-          console.log(this.x);
-          console.log(this.y);
         }
         break;
 
       case 'up':
         if (this.y > 0) {
           this.y -= 85;
-          console.log(this.x);
-          console.log("Y" + this.y);
         }
         break;
 
       case 'right':
         if (this.x < 405) {
           this.x += 102;
-          console.log(this.x);
-          console.log(this.y);
         }
         break;
 
       case 'down':
         if (this.y < 405) {
           this.y += 85;
-          console.log(this.x);
-          console.log(this.y);
         }
         break;
     }
