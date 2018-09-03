@@ -1,14 +1,13 @@
 // Enemies our player must avoid
 class Enemy {
-
   constructor(x, y, speed) {
     this.x = x;
     this.y = y;
     this.speed = speed;
     // The image/sprite for our enemies, this uses
     this.sprite = 'images/enemy-bug.png';
-
   };
+
   // Update the enemy's position, required method for game
   // Parameter: dt, a time delta between ticks
   update(dt) {
@@ -41,7 +40,6 @@ class Enemy {
 
 // This class requires an update(), render() and
 //a handleInput() method.
-
 // Now write your own player class
 class Player {
   constructor(x, y) {
@@ -51,7 +49,7 @@ class Player {
     this.victory = false;
   };
 
-
+  //resets player once it reaches the water
   update() {
     if (this.y < 0) {
       this.victory = true;
