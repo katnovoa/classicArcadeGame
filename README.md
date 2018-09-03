@@ -10,7 +10,7 @@ Avoid the bugs that travel on the road. If the player collides with the bugs, th
 Using the arrow keys on your keyboard, move upwards. Avoid the bugs at all caost and try and get to the water. If you made it in the water, you can play again. If you collided with a bug, start again!
 
 ## How to play
-Load this link : 
+Load this link : https://katnovoa.github.io/classicArcadeGame/
 
 
 ## Tech used
