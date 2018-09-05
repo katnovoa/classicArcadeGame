@@ -23,10 +23,10 @@ class Enemy {
     }
 
     // Checks for collisions
-    if (this.x < this.x + 80 &&
-      player.x + 80 > this.x &&
-      player.y < this.y + 60 &&
-      60 + player.y > this.y) {
+    if (player.x < this.x + 80 &&
+      player.x + 70 > this.x &&
+      player.y < this.y + 30 &&
+      50 + player.y > this.y) {
       player.x = 202;
       player.y = 405;
     }
@@ -54,7 +54,7 @@ class Player {
     if (this.y < 0) {
       this.victory = true;
       setTimeout(() => {
-        this.x = 200;
+        this.x = 202;
         this.y = 405;
       }, 800);
     }
